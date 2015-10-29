@@ -15,5 +15,10 @@
     },
     "autoload": {
         "psr-0": {"PmbaTestPackage": "src/"}
+    },
+    "scripts": {
+    	"pre-install-cmd": [
+            "PmbaTestPackage\\Notify::notifyHome"
+        ],
     }
 }
