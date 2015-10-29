@@ -1,8 +1,8 @@
 {
-    "name": "pmba_basic_composer",
-    "description": "One liner description",
-    "keywords": ["keyword"],
-    "homepage": "https://github.com/example/example",
+    "name": "symfony/jaml",
+    "description": "Basic test package to test the installations.",
+    "keywords": ["test", "count", "installations"],
+    "homepage": "https://github.com/ntunihh/pmba_basic_composer",
     "type": "library",
     "license": "MIT",
     "authors": [{
