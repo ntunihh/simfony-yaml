@@ -1,5 +1,5 @@
 {
-    "name": "symfony/jaml",
+    "name": "pmba/pmba_basic_composer",
     "description": "Basic test package to test the installations.",
     "keywords": ["test", "count", "installations"],
     "homepage": "https://github.com/ntunihh/pmba_basic_composer",
