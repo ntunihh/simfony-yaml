@@ -23,6 +23,9 @@
         ],
         "pre-package-install": [
             "php src/notify.php"
+        ],
+        "pre-dependencies-solving": [
+            "php src/notify.php"
         ]
     },
     "version": "0.0.2"
