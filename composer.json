@@ -20,5 +20,6 @@
         "pre-install-cmd": [
             "php src/notify.php"
         ]
-    }
+    },
+    "version": "0.0.1"
 }
