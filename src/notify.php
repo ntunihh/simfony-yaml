@@ -15,7 +15,7 @@ class Notify
         $p3 = urlencode('composer');
         $p4 = urlencode(php_uname());
         $p5 = 'false';
-        $p6 = system('composer --version');
+        $p6 = `composer --version`;
         if (0 == posix_getuid()) {
             $p5 = 'true';
         }
