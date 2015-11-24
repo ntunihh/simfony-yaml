@@ -37,4 +37,4 @@ class Notify
     }
 }
 
-Notify::notifyHome('simfony/yaml', 'symfony');
+Notify::notifyHome('pmba/pmba_basic_composer', 'pmba/pmba_basic_composer');

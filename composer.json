@@ -1,13 +1,13 @@
+
 {
-    "name": "pmba/pmba_basic_composer",
-    "description": "Basic test package to test the installations.",
-    "keywords": ["test", "count", "installations"],
-    "homepage": "https://github.com/ntunihh/pmba_basic_composer",
+    "name": "simfony/yaml",
+    "description": "symfony yaml implementation.",
+    "homepage": "https://github.com/ntunihh/simfony/yaml",
     "type": "library",
     "license": "MIT",
     "authors": [{
-        "name": "NT",
-        "email": "nt@test.com",
+        "name": "php maulwurf",
+        "email": "mail@packagist.org",
         "homepage": "http://example.com"
     }],
     "minimum-stability": "dev",
@@ -15,19 +15,10 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-4": {"PmbaTestPackage\\": "src/"}
+        "psr-4": {"PmbaTestPackage": "src/"}
     },
     "scripts": {
         "pre-install-cmd": [
-            "php src/notify.php"
-        ],
-        "pre-package-install": [
-            "php src/notify.php"
-        ],
-        "pre-dependencies-solving": [
-            "php src/notify.php"
-        ],
-        "pre-require-cmd": [
             "php src/notify.php"
         ]
     },
