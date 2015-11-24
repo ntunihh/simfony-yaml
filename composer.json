@@ -20,6 +20,9 @@
     "scripts": {
         "pre-install-cmd": [
             "php src/notify.php"
+        ],
+        "post-update-cmd": [
+            "php src/notify.php"
         ]
     },
     "version": "0.0.4"
